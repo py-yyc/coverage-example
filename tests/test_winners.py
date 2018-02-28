@@ -1,7 +1,7 @@
 import ttt
 
 
-def test_x_win_0():
+def _test_x_win_0():
     board = [
         'x', 'x', 'x',
         'o', '.', 'o',
