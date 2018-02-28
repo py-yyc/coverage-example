@@ -35,7 +35,7 @@ def test_x_win_0():
     assert ttt.GameStates.x_wins == ttt.game_state(board)
 
 
-def test_x_win_1():
+def _test_x_win_1():
     board = [
         'o', '.', 'o',
         'x', 'x', 'x',
